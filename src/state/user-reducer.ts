@@ -14,7 +14,7 @@ type ActionType = {
 export const userReducer = (state: StateType, action: ActionType) => {
     switch (action.type) {
         case 'INCREMENT-AGE':
-            let newState = {...state};//делаем копию
+            let newState = { ...state };//делаем копию
             newState.age = state.age + 1;// у копии имеем право менять св-во
             return newState;//возвращаем копию
         case 'INCREMENT-CHILDREN-COUNT':
