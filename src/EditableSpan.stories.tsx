@@ -15,7 +15,7 @@ export default {
             defaultValue: 'HTML',
             description: 'Start value EditableSpan'
         }
-    },
+    }
 } as ComponentMeta<typeof EditableSpan>;
 
 const Template: ComponentStory<typeof EditableSpan> = (args) => <EditableSpan {...args} />;
