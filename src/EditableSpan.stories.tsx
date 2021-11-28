@@ -18,7 +18,7 @@ export default {
     }
 } as ComponentMeta<typeof EditableSpan>;
 
-const Template: ComponentStory<typeof EditableSpan> = (args) => <EditableSpan {...args} />;
+const Template: ComponentStory<typeof EditableSpan> = (args: any) => <EditableSpan {...args} />;
 
 export const EditableSpanStories = Template.bind({});
 EditableSpanStories.args = {
